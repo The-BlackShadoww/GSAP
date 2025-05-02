@@ -107,3 +107,58 @@ svg {
     background-color: rgba(0, 0, 0, 0);
     /* display: flex; */
 }
+
+/* Text animation */
+#text_main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+}
+
+#text_main h1 {
+    font-size: 5vw;
+    text-wrap: nowrap;
+    color: #fff;
+    overflow: hidden;
+}
+
+#text_main h1 span {
+    display: inline-block;
+}
+
+/* Scroll animation */
+#scroll_main {
+    width: 100%;
+    height: auto;
+    background-color: #111;
+}
+
+#page1,
+#page2,
+#page3 {
+    height: 100vh;
+    width: 100%;
+}
+
+#move {
+    background-color: #d9ff06;
+    display: flex;
+    padding: 3vw 0
+}
+.marque {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 0 1.5vw;
+}
+.marque h1 {
+    font-size: 70px;
+}
+
+.marque img {
+    height: 80px;
+}
